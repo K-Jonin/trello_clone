@@ -1,1 +1,50 @@
+@charset "UTF-8";
 
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-size: 0.8em;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+body h2 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #2d2d2d;
+}
+
+header {
+	text-align: center;
+	background-color: #44B3BD;
+}
+
+header h1{
+	color: #fff;
+	text-shadow: #2d2d2d 2px 2px 2px;
+}
+
+.taskCard {
+	width: 250px;
+	padding: 10px 25px;
+	margin: 10px 1px;
+	background-color: blueviolet;
+	border-radius: 10px	;
+}
