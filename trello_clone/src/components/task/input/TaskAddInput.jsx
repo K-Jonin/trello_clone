@@ -12,7 +12,7 @@ export const TaskAddInput = ({inputText, setInputText, taskList, setTaskList}) =
     }
 
     // カードを追加
-    setTaskList([...taskList, 
+    setTaskList([...taskList,
     {
       id: taskId,
       text: inputText,
