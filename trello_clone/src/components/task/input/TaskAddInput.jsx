@@ -4,9 +4,15 @@ export const TaskAddInput = ({inputText, setInputText, taskList, setTaskList}) =
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if(inputText === ""){
+      return
+    }
+    
     // カードを追加
     setTaskList([...taskList, 
     {
+      id: taskList.length,
       text: inputText,
     }])
 
