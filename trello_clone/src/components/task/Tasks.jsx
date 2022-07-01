@@ -14,9 +14,10 @@ const reorder = (taskList, startIndex, endIndex) => {
 };
 
 export const Tasks = ({taskList,  setTaskList}) => {
+  
   const handleDragEnd = (result) => {
-  reorder(taskList, result.source.index, result.destination.index);
-};
+    reorder(taskList, result.source.index, result.destination.index);
+  };
 
   return (
   <div>
