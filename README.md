@@ -1,9 +1,6 @@
 # アプリタイトル
 trello-clone
 
-## デモサイトURL
-https://k-jonin.net/trello-clone/
-
 ## システム概要
 「Torello」というタスク管理ツールのクローンアプリです。
 
